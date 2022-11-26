@@ -1,0 +1,59 @@
+p {
+  color: whitesmoke;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+div {
+  color: whitesmoke;
+}
+
+h4,
+h2 {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.tabs {
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.boardTabLeft {
+  margin: 20px;
+  text-align: left;
+}
+
+.boardTabRight {
+  margin: 20px;
+  text-align: right;
+}
+
+img {
+  width: auto;
+}
+.rest {
+  text-align: center;
+}
+
+#restart {
+  width: 60px;
+  height: 30px;
+  text-align: center;
+}
