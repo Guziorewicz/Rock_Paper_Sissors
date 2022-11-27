@@ -30,10 +30,10 @@ function showScore(tab, player, comp) {
 
   if (compScore == 5) {
     score = "Comp Wins!";
-    lockButtons();
+    //lockButtons();
   } else if (playerScore == 5) {
     score = "Player Wins!";
-    lockButtons();
+    //lockButtons();
   } else {
     score = tab;
   }
@@ -41,17 +41,17 @@ function showScore(tab, player, comp) {
   tableBoard.innerHTML = score;
 }
 
-function lockButtons() {
-  document.querySelector(".paper").disabled = true;
-  document.querySelector(".sissors").disabled = true;
-  document.querySelector(".rock").disabled = true;
-}
+// function lockButtons() {
+//   document.querySelector(".paper").disabled = true;
+//   document.querySelector(".sissors").disabled = true;
+//   document.querySelector(".rock").disabled = true;
+// }
 
-function unlockButtons() {
-  document.querySelector(".paper").disabled = false;
-  document.querySelector(".sissors").disabled = false;
-  document.querySelector(".rock").disabled = false;
-}
+// function unlockButtons() {
+//   document.querySelector(".paper").disabled = false;
+//   document.querySelector(".sissors").disabled = false;
+//   document.querySelector(".rock").disabled = false;
+// }
 
 let paper = document.querySelector(".paper");
 paper.addEventListener("click", () => {
@@ -126,5 +126,5 @@ function game() {
 
 function restartGame() {
   showScore("Tablica wyników", 0, 0);
-  unlockButtons();
+  //unlockButtons();
 }
